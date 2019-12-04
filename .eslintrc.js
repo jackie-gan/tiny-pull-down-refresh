@@ -1,0 +1,11 @@
+module.exports = {
+  extends: ['alloy'],
+  env: {
+    browser: true,
+    node: true
+  },
+  globals: {},
+  rules: {
+    'no-var': "off"
+  }
+};
